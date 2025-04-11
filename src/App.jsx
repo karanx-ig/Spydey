@@ -15,7 +15,7 @@ function App() {
 
   <button 
   onClick={()=>{
-    fetch("/api/search?text="+ search)
+    fetch("/.netlify/functions/search?text=" + search)
     .then((response) => {
       response.json()
       .then((results) => setResults(results))
