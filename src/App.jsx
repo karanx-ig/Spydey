@@ -9,7 +9,7 @@ function App() {
   return <>
   <h1>★ Welcome to Spiderverse ★ </h1>
   <div className="container">
-  <input type="text" placeholder="Enter to Search" 
+ <input type="text" placeholder="Enter to Search" 
   value={search}
   onChange={(e)=> setSearch(e.target.value)}/>
 
@@ -24,7 +24,7 @@ function App() {
     .catch((error) => console.error("Search error !!", error));
   }
 }
-  >Search</button>
+  >🔍︎</button>
   </div>
   <div className="results"> 
   <ul>
