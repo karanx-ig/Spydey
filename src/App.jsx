@@ -29,7 +29,7 @@ function App() {
   <div className="results"> 
   <ul>
     {
-      results.map((item,index) => (
+      results?.map((item,index) => (
         <li key={index}>
           <a href={item.url} target="_blank">{item.title}</a>
         </li>
